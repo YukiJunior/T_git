@@ -65,9 +65,9 @@
 
 - [x] Criando git ignore
   - Criar um arquivo chamado .gitignore
-  - Serve para ignorar alguns tipos arquivos ou pastas
-  - DS_STORE
-  - node_modules/*
+    - Serve para ignorar alguns tipos arquivos ou pastas
+    - DS_STORE
+    - node_modules/*
 
 - [x] Desfazendo alterações da branches resetar e exclui todas as mudanças feitas no commit ou que estão pendentes;
   - esse comando se usa dessa forma abaixo 
