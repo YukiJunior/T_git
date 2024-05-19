@@ -1,6 +1,6 @@
 # Git
 
-#....CURSO DE GIT....
+# ....CURSO DE GIT....
 
 para iniciar um repo
 
