@@ -3,21 +3,29 @@
 # ========> CURSO DE GIT <========
 -----------------------------------------------------------------------------------------
 
-- [x] Para iniciar um repo.
-- git init
+- [x] Para iniciar um repo:
+  - git init
 
 - [x] Pode a linha de comando cedida pelo GitHub:
-- echo "# teste" >> README.md
-- git init
-- git add README.md
-- git commit -m "first commit"
-- git branch -M main
-- git remote add origin https://(nome do repo/endereço do repo)
-- git push -u origin main
+  - echo "# teste" >> README.md
+  - git init
+  - git add README.md
+  - git commit -m "first commit"
+  - git branch -M main
+  - git remote add origin https://(nome do repo/endereço do repo)
+  - git push -u origin main
 
-- [x] Para saber status 
+- [x] Para saber status do repo:
   - git status
-- [x] Operador Ternário.
+
+- [x] Para adicionar arquivos no repo.
+  - Adiona apena um arquivo precisa: 
+    - git add nome_arquivo.extensão
+    - git add pasta/nome_arquivo.extensão (add pasta e arquivo)
+    - Dessa forma: git add index.html 
+  - Para adicionar todos os arquivos de uma vez:
+    -git add .
+    
 - [x] Operações de comparação.
 - [x] Utilizando String, Boolean, Números.
 - [x] Utilização de String Template.
@@ -49,17 +57,6 @@
 
 
 
-Para adicionar arquivos no repo
-Comando EX: adiona apena um arquivo precisa 
-colocar nome do arquivo sua extensão.
-  git add nome_arquivo.extensão
-  git add pasta/nome_arquivo.extensão (add pasta e arquivo)
-
-  git add index.html 
-
-Para adicionar todos os arquivos de uma vez:
-Comando EX:
-  git add .
 
 commit: Quando faz fizer alterações dos arquivos
 fazemos commit com msg explicando as alteações. 
