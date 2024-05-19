@@ -4,8 +4,7 @@
 -----------------------------------------------------------------------------------------
 
 - [x] Para iniciar um repo.
-      - Comando EX:
-          git init
+      -> Comando EX: git init
 - [x] Tipos Primitivos.
 - [x] Operações Matemáticas. 
 - [x] Operador Ternário.
