@@ -76,15 +76,9 @@
   
   - resultado vai trazer para ultimo commit excluindo toda alterações feita.
   - sempre colocando no da branch que quer ser resetada, nesse exemplo foi a branch master.
-  
-- [x] Utilizando Truthy/False.
-- [x] Utilizando For.
-- [x] Utilizando Switch.
-- [x] Utilizando forEach.
-- [x] Orientação Objeto.
 
 -----------------------------------------------------------------------------------------------
-## Para executar os scripts pode ser feito em duas maneiras: 
+# Branch 
 
 ## Primeira Maneira: 
 
