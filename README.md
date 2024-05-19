@@ -80,12 +80,21 @@
 -----------------------------------------------------------------------------------------------
 # Branch 
 
-## Primeira Maneira: 
+# Atualizando REPO
+ 
+- [x] Enviar branch para repo
+  - git push --set-upstream origin nome_branch
 
-- [x] No index.html, lembre-se apenas de trocar o nome do arquivo e usar o inspecionar e clicar na aba console.
+# Fecth --->
+  - Atualizar todos os branches e tags que ainda não estão reconhecidos por você
+    - git fetch -a  
 
-## Segunda Maneira: 
-- [x] Para executar os scripts no Terminal use node nomeDoArquivo.js
+  - Atualizar repo 
+    - git pull
+
+  - Para fazer as modificações na branch master
+    - git merge origin/nome_branch (que foi feita o código)
+
 -----------------------------------------------------------------------------------------------
 
 
