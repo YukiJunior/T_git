@@ -1,0 +1,16 @@
+Testando repo 1
+
+testando repo 12
+
+<<<<<<< HEAD
+a 
+b 
+c
+d 
+=======
+atualizaçãoooo usando merge.
+>>>>>>> master
+a 
+c 
+e 
+d 

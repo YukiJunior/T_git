@@ -1,0 +1,15 @@
+Atualizando REPO
+
+Enviar branch para repo
+Comando EX:
+git push --set-upstream origin nome_branch
+
+Fecth --->
+Atualizar todos os branches e tags
+que ainda não estão reconhecidos por você
+
+Comando EX:
+  git fetch -a 
+
+Atualizar repo 
+  git pull

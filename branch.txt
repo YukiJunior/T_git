@@ -1,0 +1,103 @@
+========> BRANCHES <=========
+
+Aprendendo como manipular as branch e suas ramificações
+
+Criando uma branch
+Comando EX:
+  git branch primeiro_branch
+
+Para consultar branches existentes
+Comando EX:
+  git branch
+para sair digite q
+
+Deletando BRANCHES
+Comando EX:
+  git branch -d nome_da_branch
+
+  git branch --delete nome_da_branch
+
+obs: Não é de boa pratica deletar branch
+
+Mudando de branch
+Comando EX:
+  git checkout -b nome_da_branch
+
+OBS: alterando o branch podemos levar
+alterações que foram commitadas junto.
+
+<<<<<<< HEAD
+
+  
+=======
+Criando branch e entrando na mesma
+Comando EX:
+  git checkout -b nome_da_branch
+
+Unindo branches
+Seria uma atualização dos codigos na branch.
+Comando EX:
+  git merge nome_da_branch
+==>OBS: precisa está na branch que quer unir
+>>>>>>> master
+
+
+Salvar modificação: esse comando limpa ou exclui o script 
+deixa salvo no cache.
+Comando EX:
+  git stash
+
+Consulta e lista stash
+Comando EX:
+  git stash list
+vai mostrar um indice com {} o que está no parentes cache gravado
+
+mostra as modificações do stash feitas
+Comando EX:
+  git stash show -p {} 
+
+Recuperando stash
+Comando EX:
+  git stash apply número_do_indice
+
+Apagando stash
+Comando EX:
+  limpa stash por vez
+    git stash drop numero_stash
+  
+  apagar toda stash
+    git stash clear
+
+Tags
+Comando EX:
+  criar tag no branches, como fosse checkpoint
+  de uma branch
+    git tag -a nome -m "messagem"
+    git tag -a v1.0 -m "Primeira versão"
+  como fosse uma marca para versão.
+  Para consultar uma tag
+    git tag
+
+Para consultar uma tag
+  Comando EX:
+    git tag
+
+Verificar tag
+Comando EX:
+  git show nome_tag
+
+Trocar de tag
+Comando EX:
+  git checkout nome_tag
+
+Enviar apenas a tag para repo 
+Comando EX:
+  git push origin nome_tag
+
+Enviar todas as tags
+Comando EX:
+  git push origin --tags
+
+
+  
+
