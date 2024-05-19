@@ -5,8 +5,18 @@
 
 - [x] Para iniciar um repo.
 - git init
-- [x] Tipos Primitivos.
-- [x] Operações Matemáticas. 
+
+- [x] Pode a linha de comando cedida pelo GitHub:
+- echo "# teste" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://(nome do repo/endereço do repo)
+- git push -u origin main
+
+- [x] Para saber status 
+  - git status
 - [x] Operador Ternário.
 - [x] Operações de comparação.
 - [x] Utilizando String, Boolean, Números.
@@ -36,19 +46,8 @@
 
 
 
-ou pode usar essa linha cedida pelo GitHub
 
-echo "# teste" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://(nome do repo/endereço do repo)
-git push -u origin main
 
-Para saber o modificações status dos arquivos
-Comando EX:
-  git status
 
 Para adicionar arquivos no repo
 Comando EX: adiona apena um arquivo precisa 
