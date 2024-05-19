@@ -80,12 +80,12 @@
 -----------------------------------------------------------------------------------------------
 # Branch 
 
-# Atualizando REPO
+- [x] Atualizando REPO
  
 - [x] Enviar branch para repo
   - git push --set-upstream origin nome_branch
 
-# Fecth --->
+- [x] fetch --->
   - Atualizar todos os branches e tags que ainda não estão reconhecidos por você
     - git fetch -a  
 
