@@ -1,6 +1,6 @@
 # Git
 
-....CURSO DE GIT....
+#....CURSO DE GIT....
 
 para iniciar um repo
 
@@ -14,7 +14,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/YukiJunior/teste.git (nome do repo)
+git remote add origin https://(nome do repo/endereço do repo)
 git push -u origin main
 
 Para saber o modificações status dos arquivos
@@ -52,12 +52,10 @@ Comando EX:
 Clonando o repo
 Comando EX:
   Clonagem do repo total:
-    git clone https://github.com/YukiJunior/curso_git.git
-              endereço do repo 
+    git clone https://endereço do repo 
   
   Clonagem apenas dos arquivos do repo acrescente . :
-    git clone https://github.com/YukiJunior/curso_git.git .
-              endereço do repo .
+    git clone https://endereço do repo .
               
 Apangando um arquivo
 Comando EX:
