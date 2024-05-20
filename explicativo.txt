@@ -50,11 +50,11 @@ Comando EX:
 Clonando o repo
 Comando EX:
   Clonagem do repo total:
-    git clone https://github.com/YukiJunior/curso_git.git
+    git clone https://endereço_do_git 
               endereço do repo 
   
   Clonagem apenas dos arquivos do repo acrescente . :
-    git clone https://github.com/YukiJunior/curso_git.git .
+    git clone https://endereço_do_git .
               endereço do repo .
               
 Apangando um arquivo
