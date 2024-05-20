@@ -6,3 +6,7 @@ arquivo
 
 Enviando funcionalidade da branch 
 funcionalidade_a
+
+Enviando funcionalidade da branch 
+ funcionalidade_a para funcionalidade_b
+ 
