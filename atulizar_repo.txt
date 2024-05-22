@@ -37,3 +37,8 @@ depois saia do diretorio
 cd ..
 para atualizar 
 git pull
+
+Fazer um push do submodule
+Para fazer um push submodule precisa entrar no nome_diretorio
+cd nome_diretorio
+git push --recurse-submodules=on-demand
