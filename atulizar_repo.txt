@@ -7,10 +7,33 @@ git push --set-upstream origin nome_branch
 Fecth --->
 Atualizar todos os branches e tags
 que ainda não estão reconhecidos por você
-
+também mapeas as branches
 Comando EX:
   git fetch -a 
 
 Atualizar repo 
   git pull
-  
+
+Merge para atualizar
+git merge origin/nome_branch (que foi feita o código)
+
+Remove o endereço do repositorio.
+git remote rm origin https://endereço_do_repo
+
+Adicona repo
+git remote add origin https://endereço_do_repo
+
+Adicionando submodulo
+git submodule
+git submodule add https://endereço_do_repo nome_diretorio
+git submodule
+Para atualizar submodule precisa entrar no nome_diretorio
+cd nome_diretorio
+dentro do diretorio para atualizar 
+git pull
+caso faça qualquer coisa para atualizar
+git pull 
+depois saia do diretorio
+cd ..
+para atualizar 
+git pull
