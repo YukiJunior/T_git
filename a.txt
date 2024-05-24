@@ -3,3 +3,7 @@ uma
 atualização
 do 
 arquivo
+
+Diff 
+do 
+Arquivo
