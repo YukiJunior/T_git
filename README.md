@@ -97,6 +97,12 @@
 
 -----------------------------------------------------------------------------------------------
 
+# Análise e inspeção de repositórios
+
+  - [x] git show
+    - Mostra detalhes e modificações das branches e tags.
+  - [x] git diff 
+    - Mostra modificações e diferença da branch master   e branch usada para modificar
 
 
 
