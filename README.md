@@ -103,6 +103,9 @@
     - Mostra detalhes e modificações das branches e tags.
   - [x] git diff 
     - Mostra modificações e diferença da branch master   e branch usada para modificar
+  - [x] git diff HEAD:a.txt a.txt
+    - Mostra as modificações dos repos. 
+    
 
 
 
