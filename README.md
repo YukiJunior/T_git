@@ -106,7 +106,7 @@
   - [x] git diff HEAD:a.txt a.txt
     - Mostra as modificações entre as repos. 
   - [x] git shortlog 
-    - Dá um log resumido do projeto e trás cada commit será unido por nome do autor.
+    - Dá um log resumido do projeto e trás cada commit será unido por nome do autor, independente de branch.
     
 
 
