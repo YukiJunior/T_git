@@ -3,22 +3,22 @@
 # ========> COMANDOS DO GIT <========
 -----------------------------------------------------------------------------------------
 
-- [x] Para iniciar um repo:
+- [x] Para iniciar uma repo:
   - git init
 
-- [x] Pode a linha de comando cedida pelo GitHub:
+- [x] Pode ser feito pela linha de comando cedida pelo GitHub:
   - echo "# teste" >> README.md
   - git init
   - git add README.md
   - git commit -m "first commit"
   - git branch -M main
-  - git remote add origin https://(nome do repo/endereço do repo)
+  - git remote add origin https://(nome_da_repo/endereço_da_repo)
   - git push -u origin main
 
-- [x] Para saber status do repo:
+- [x] Para saber status da repo:
   - git status
 
-- [x] Para adicionar arquivos no repo.
+- [x] Para adicionar arquivos na repo.
   - Adiona apena um arquivo precisa: 
     - git add nome_arquivo.extensão
     - git add pasta/nome_arquivo.extensão (add pasta e arquivo)
@@ -35,13 +35,13 @@
 
 - [x] Como enviar arquivo para repo
   - git push
-- [x] Clonar um repo
+- [x] Clonar da repo
   - Clonagem do repo total:
     - git clone https://endereço do repo 
   - Clonagem apenas dos arquivos acrescenta o . :
     - git clone https://endereço do repo espaço  .
 
-- [x] Apangando um arquivo
+- [x] Apagando um arquivo
   - git rm c.txt
     - git rm nome_do_arquivo.extensão
 
@@ -102,9 +102,9 @@
   - [x] git show
     - Mostra detalhes e modificações das branches e tags.
   - [x] git diff 
-    - Mostra modificações e diferença da branch master   e branch usada para modificar
+    - Mostra modificações e diferença da branch para outra branch o até mesmo da mesma branch.
   - [x] git diff HEAD:a.txt a.txt
-    - Mostra as modificações dos repos. 
+    - Mostra as modificações entre as repos. 
     
 
 
