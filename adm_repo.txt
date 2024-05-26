@@ -1,0 +1,5 @@
+
+git clean remove os arquivos não adicionado
+
+git clean -f
+
