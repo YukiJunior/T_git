@@ -25,5 +25,6 @@ uso do git reset
   git reset --hard bdc980d(número_do_registro)
 
 Comando para transformar o repo em um arquivo
-  git archive --format zip --output master_files.zip
+  git archive --format zip --output nome_do
+  -arquivo.zip nome_da_branch
 o arquivo vai estar zipado mater_files.zip
