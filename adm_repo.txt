@@ -26,3 +26,4 @@ uso do git reset
 
 Comando para transformar o repo em um arquivo
   git archive --format zip --output master_files.zip
+o arquivo vai estar zipado mater_files.zip
