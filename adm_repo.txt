@@ -14,3 +14,10 @@ conectividade, verifica se estão corrompidos.
 comando de rotina, para verificação;
 
 git fsck
+
+git reflog
+  vai mapear todos os seus passos no 
+  repositório, até uma mudança de branch
+  é inserida neste log;
+  esse comando ficam salvos no tempo de 30 dias;
+  
