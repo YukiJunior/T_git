@@ -21,5 +21,8 @@ git reflog
   é inserida neste log;
   esse comando ficam salvos no tempo de 30 dias;
   
-  uso do git reset
-git reset --hard bdc980d(número_do_registro)
+uso do git reset
+  git reset --hard bdc980d(número_do_registro)
+
+Comando para transformar o repo em um arquivo
+  git archive --format zip --output master_files.zip
