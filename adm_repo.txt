@@ -21,3 +21,5 @@ git reflog
   é inserida neste log;
   esse comando ficam salvos no tempo de 30 dias;
   
+  uso do git reset
+git reset --hard bdc980d(número_do_registro)
