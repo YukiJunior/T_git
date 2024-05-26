@@ -28,3 +28,25 @@ Comando para transformar o repo em um arquivo
   git archive --format zip --output nome_do
   -arquivo.zip nome_da_branch
 o arquivo vai estar zipado mater_files.zip
+
+
+Técnicas de private branch
+git rebase nome_arquivo private_nome_arquivo -i
+
+irá mostrar os commits
+para editar click i = insert
+
+aonde escrito pick
+squash = delete o commit 
+reword = edita o commit 
+
+================================================
+p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+
+Para salvar modificação 
+comando :x! 
