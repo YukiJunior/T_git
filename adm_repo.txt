@@ -3,3 +3,5 @@ git clean remove os arquivos não adicionado
 
 git clean -f
 
+git gc comando que otimiza repo, 
+ele indentifica arquivos que não são necessários e os exclui
