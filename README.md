@@ -1,7 +1,7 @@
 # ==========> Git <==========
 
 # ========> COMANDOS DO GIT <========
------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 
 - [x] Para iniciar uma repo:
   - git init
@@ -77,7 +77,7 @@
   - resultado vai trazer para ultimo commit excluindo toda alterações feita.
   - sempre colocando no da branch que quer ser resetada, nesse exemplo foi a branch master.
 
------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 # Branch 
 
 - [x] Atualizando REPO
@@ -95,7 +95,7 @@
   - Para fazer as modificações na branch master
     - git merge origin/nome_branch (que foi feita o código)
 
------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 
 # Análise e inspeção de repositórios
 
@@ -107,7 +107,52 @@
     - Mostra as modificações entre as repos. 
   - [x] git shortlog 
     - Dá um log resumido do projeto e trás cada commit será unido por nome do autor, independente de branch.
-    
+----------------------------------------------------------------------------------------------------------------    
+# Administrando Repositórios
+
+  - [x] Comando para administrar um repositórios.
+
+    - [x] git clean remove os arquivos não adicionado.
+
+      - git clean -f
+
+    - [x] git gc comando que otimiza repo, ele indentifica arquivos que não são necessários e os exclui.
+      - git gc
+
+    - [x] git fsck verifica a integridade de arquivos e sua conectividade, verifica se estão corrompidos.
+    comando de rotina, para verificação;
+      - git fsck
+
+    - [x] git reflog vai mapear todos os seus passos no repositório, até uma mudança de branch, inserindo neste log esse comando ficam salvos no tempo de 30 dias;
+  
+    - [x] uso do git reset
+      - git reset --hard bdc980d (número_do_registro)
+
+    - [x] Comando para transformar o repo em um arquivo
+      - git archive --format zip --output nome_do_arquivo.zip nome_da_branch
+        - o arquivo vai estar zipado mater_files.zip
+
+-----------------------------------------------------------------------------------------------------------------
+
+# Técnicas de private branch
+
+  - [x] git rebase nome_arquivo private_nome_arquivo -i
+    - irá mostrar os commits para editar click i = insert
+    - aonde escrito pick
+    - squash = delete o commit 
+    - reword = edita o commit 
+
+|=============================================================================|
+| - p, pick = use commit                                                      |
+| - # r, reword = use commit, but edit the commit message                     |
+| - # e, edit = use commit, but stop for amending                             |
+| - # s, squash = use commit, but meld into previous commit                   |
+| - # f, fixup = like "squash", but discard this commit's log message         |
+| - # x, exec = run command (the rest of the line) using shell                |
+|                                                                             |
+| - Para salvar modificação                                                   |
+| - comando :x!                                                               |
+|=============================================================================|
 
 
 
